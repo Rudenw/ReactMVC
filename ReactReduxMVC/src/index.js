@@ -1,16 +1,12 @@
-﻿import React from "react";
-import ReactDOM from "react-dom";
-import $ from 'jquery';
-import HomePage from 'home/HomePage';
+﻿import 'babel-polyfill';
+import React from "react";
+import { render } from "react-dom";
+import { Router, browserHistory } from "react-router";
+import routes from "./routes.js";
+import './styles/styles.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-const baseUrl = 'http://localhost:57547';
-
-$.ajax({
-    url: baseUrl + "/api/values",
-    context: document.body
-}).done(function (e) {
-    console.log("done");
-    console.log(e);
-});
-
-console.log("howdy howitzer");
+render(
+    <Router history={browserHistory} routes={routes} />,
+    document.getElementById('app')
+);

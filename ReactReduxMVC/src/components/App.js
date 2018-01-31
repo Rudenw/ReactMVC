@@ -1,19 +1,16 @@
-﻿import React, { PropTypes } from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router';
+import Header from './common/Header'
 
 class App extends React.Component {
     render() {
         return (
             <div className="container-fluid">
-                <p>Header here...</p>
+                <Header />
                 {this.props.children}
             </div>
         );
     }
-}
-
-App.propTypes = {
-    children: PropTypes.object.isRequired
 }
 
 export default App;

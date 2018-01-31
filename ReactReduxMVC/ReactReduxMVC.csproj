@@ -112,11 +112,14 @@
     <Content Include="Global.asax" />
     <Content Include="src\components\about\AboutPage.js" />
     <Content Include="src\components\App.js" />
+    <Content Include="src\components\common\Header.js" />
+    <Content Include="src\components\course\CoursesPage.js" />
     <Content Include="src\components\home\HomePage.js" />
     <Content Include="src\index.test.js" />
     <Content Include="index.html" />
     <Content Include="src\index.js" />
     <Content Include="src\routes.js" />
+    <Content Include="src\styles\styles.css" />
     <Content Include="tools\startMessage.js" />
     <Content Include="tools\srcServer.js" />
     <Content Include="tools\testSetup.js" />
