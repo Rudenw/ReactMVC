@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run-script',
+1 verbose cli   'open:src' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 verbose run-script [ 'preopen:src', 'open:src', 'postopen:src' ]
+5 info lifecycle pluralsight-redux-starter@1.0.0~preopen:src: pluralsight-redux-starter@1.0.0
+6 silly lifecycle pluralsight-redux-starter@1.0.0~preopen:src: no script for preopen:src, continuing
+7 info lifecycle pluralsight-redux-starter@1.0.0~open:src: pluralsight-redux-starter@1.0.0
+8 verbose lifecycle pluralsight-redux-starter@1.0.0~open:src: unsafe-perm in lifecycle true
+9 verbose lifecycle pluralsight-redux-starter@1.0.0~open:src: PATH: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\bin\node-gyp-bin;C:\Users\rrude\source\repos\ReactMVC\ReactMVC\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\bin\node-gyp-bin;C:\Users\rrude\source\repos\ReactMVC\ReactMVC\node_modules\.bin;.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\rrude\AppData\Local\Microsoft\WindowsApps;C:\Users\rrude\AppData\Roaming\npm;E:\Program Files\nodejs;;C:\Users\rrude\source\repos\ReactMVC\packages\Microsoft.Net.Compilers.2.1.0\tools;C:\Users\rrude\source\repos\ReactMVC\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\tools;C:\Users\rrude\source\repos\ReactMVC\packages\Microsoft.Web.Infrastructure.1.0.0.0\tools;C:\Users\rrude\source\repos\ReactMVC\packages\Newtonsoft.Json.6.0.4\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+10 verbose lifecycle pluralsight-redux-starter@1.0.0~open:src: CWD: C:\Users\rrude\source\repos\ReactMVC\ReactMVC
+11 silly lifecycle pluralsight-redux-starter@1.0.0~open:src: Args: [ '/d /s /c', 'babel-node tools/srcServer.js' ]
+12 silly lifecycle pluralsight-redux-starter@1.0.0~open:src: Returned: code: 1  signal: null
+13 info lifecycle pluralsight-redux-starter@1.0.0~open:src: Failed to exec open:src script
+14 verbose stack Error: pluralsight-redux-starter@1.0.0 open:src: `babel-node tools/srcServer.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\lib\utils\lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:821:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid pluralsight-redux-starter@1.0.0
+16 verbose cwd C:\Users\rrude\source\repos\ReactMVC\ReactMVC
+17 error Windows_NT 10.0.16299
+18 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "run-script" "open:src"
+19 error node v5.4.1
+20 error npm  v3.3.4
+21 error code ELIFECYCLE
+22 error pluralsight-redux-starter@1.0.0 open:src: `babel-node tools/srcServer.js`
+22 error Exit status 1
+23 error Failed at the pluralsight-redux-starter@1.0.0 open:src script 'babel-node tools/srcServer.js'.
+23 error This is most likely a problem with the pluralsight-redux-starter package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     babel-node tools/srcServer.js
+23 error You can get their info via:
+23 error     npm owner ls pluralsight-redux-starter
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
