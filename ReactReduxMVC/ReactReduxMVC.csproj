@@ -110,6 +110,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="src\actions\actionTypes.js" />
+    <Content Include="src\actions\courseActions.js" />
     <Content Include="src\components\about\AboutPage.js" />
     <Content Include="src\components\App.js" />
     <Content Include="src\components\common\Header.js" />
@@ -118,7 +120,10 @@
     <Content Include="src\index.test.js" />
     <Content Include="index.html" />
     <Content Include="src\index.js" />
+    <Content Include="src\reducers\courseReducer.js" />
+    <Content Include="src\reducers\index.js" />
     <Content Include="src\routes.js" />
+    <Content Include="src\store\configureStore.js" />
     <Content Include="src\styles\styles.css" />
     <Content Include="tools\startMessage.js" />
     <Content Include="tools\srcServer.js" />
