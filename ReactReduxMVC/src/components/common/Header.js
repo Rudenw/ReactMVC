@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { Link, IndexLink } from 'react-router';
+import { IndexLink } from 'react-router';
 
 const Header = () => (
     <nav>

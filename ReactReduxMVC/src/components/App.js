@@ -1,4 +1,4 @@
-﻿import React from 'react';
+﻿import React, { PropTypes} from 'react';
 import { Link } from 'react-router';
 import Header from './common/Header'
 
@@ -12,5 +12,10 @@ class App extends React.Component {
         );
     }
 }
+
+App.propTypes = {
+    children: PropTypes.object.isRequired
+}
+
 
 export default App;
