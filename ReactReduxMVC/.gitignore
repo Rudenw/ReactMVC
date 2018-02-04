@@ -1,0 +1,11 @@
+﻿node_modules
+bin
+release
+dist
+npm-debug.log.*
+bundle.js
+*.woff2
+*.svg
+*.ttf
+*.eot
+*.woff
